@@ -23,7 +23,7 @@ class JustModel{
   String regExp;
   bool required;
   String type;
-  List<String> values;
+  List values;
 
   JustModel({
     required this.required,
