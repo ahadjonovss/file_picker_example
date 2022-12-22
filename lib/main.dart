@@ -1,6 +1,7 @@
 import 'package:file_picker_example/data/repositories/api_repository.dart';
 import 'package:file_picker_example/ui/file_picker.dart';
 import 'package:file_picker_example/ui/info_page.dart';
+import 'package:file_picker_example/ui/main_page.dart';
 import 'package:file_picker_example/view_models/api_view_model.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: InfoPage(),
+      home: MainPage(),
     );
   }
 }
